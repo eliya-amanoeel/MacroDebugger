@@ -1,32 +1,22 @@
-MacroDebugger
-MacroDebugger is a lightweight C++ debugging utility tailored for embedded systems development. It provides a set of macros and tools designed to simplify the process of logging, tracing, and diagnosing issues in resource-constrained environments.
+MacroDebugger is a lightweight C++ debugging utility designed for embedded systems and custom HID (Human Interface Device) development. This project provides a set of preprocessor macros and tools that simplify logging, tracing, and debugging in resource-constrained environments.
 
-Features
-Macro-Based Debugging: Utilize preprocessor macros to insert debug statements with minimal overhead.
+Macro-Based Debugging: Easily insert debug output with minimal overhead using custom macros.
 
-Configurable Output: Easily enable or disable debug output based on build configurations or runtime conditions.
+HID Integration: Built with the NicoHood/HID library to support advanced USB HID functionality on Arduino-compatible boards.
 
-PlatformIO Integration: Seamless compatibility with PlatformIO for streamlined development workflows.
+PlatformIO Support: Ready-to-use configuration for PlatformIO, enabling quick setup and deployment.
 
-Modular Structure: Organized codebase with clear separation between source, headers, and tests.
+Custom Keypad Macros: Ideal for projects that use macro pads or debugging keypads to automate and streamline development tasks.
+
+Modular Codebase: Cleanly separated headers, sources, and tests for easy navigation and maintenance.
 
 Getting Started
-To incorporate MacroDebugger into your project:
-
-Clone the repository:
-
+To incorporate MacroDebugger into your project, clone the repository:
 git clone https://github.com/eliya-amanoeel/MacroDebugger.git
 
 Directory Structure
 include/: Public header files.
-
 src/: Source code implementation.
-
 test/: Unit tests and test cases.
-
 .vscode/: Visual Studio Code configuration files.
-
 platformio.ini: PlatformIO project configuration.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
