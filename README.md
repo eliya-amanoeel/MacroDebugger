@@ -3,6 +3,7 @@ MacroDebugger is a lightweight C++ debugging utility designed for embedded syste
 Macro-Based Debugging: Easily insert debug output with minimal overhead using custom macros.
 
 HID Integration: Built with the NicoHood/HID library to support advanced USB HID functionality on Arduino-compatible boards.
+https://github.com/NicoHood/HID
 
 PlatformIO Support: Ready-to-use configuration for PlatformIO, enabling quick setup and deployment.
 
